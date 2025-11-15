@@ -30,13 +30,13 @@ A simple & easy CLI injector for Minecraft: Bedrock Editon meant to aid in devel
 
     ```cmd
     :: Terminate any running instance of the game.
-    MCBE.CLI.Injector.exe --terminate
+    MCBE.CLI.Launcher.exe --terminate
 
     :: Build our native mod using our preferred toolchain.
     Build.cmd
 
     :: Inject our native mod into a fresh instance of the game.
-    MCBE.CLI.Injector.exe --launch Modification.dll --initialized
+    MCBE.CLI.Launcher.exe --launch Modification.dll --initialized
     ```
 
 ## Build
