@@ -8,7 +8,7 @@ A simple & easy CLI injector for Minecraft: Bedrock Editon meant to aid in devel
 - Integrates well in various pipelines when developing native mods.
 
 ## Installation
-- [Download](https://github.com/Aetopia/Igneous/releases/latest/download/MCBE.CLI.Launcher.exe) the latest release.
+- [Download](https://github.com/Aetopia/MCBE.CLI.Launcher/releases/latest/download/MCBE.CLI.Launcher.exe) the latest release.
 - Start your preferred terminal such as Command Prompt or PowerShell & run `MCBE.CLI.Launcher.exe`.
 
 ### Arguments
