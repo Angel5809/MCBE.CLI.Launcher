@@ -27,7 +27,12 @@ unsafe readonly struct Win32Window
 
     internal void Switch() => SwitchToThisWindow(_handle, true);
 
-    internal void Close() => EndTask(_handle, false, true);
+    internal void Close()
+    {
+        EndTask(_handle, false, true);
+        if (Win32Process.Open(PROCESS_SYNCHRONIZE, ProcessId) is not { } process) return;
+        using (process) process.Wait(INFINITE);
+    }
 
     public static implicit operator HWND(Win32Window @this) => @this._handle;
 
