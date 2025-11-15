@@ -14,9 +14,9 @@ unsafe readonly struct Win32Window
     [DllImport("User32", ExactSpelling = true, SetLastError = true)]
     static extern bool EndTask(nint hWnd, [MarshalAs(UnmanagedType.Bool)] bool fShutDown, [MarshalAs(UnmanagedType.Bool)] bool fForce);
 
-    readonly HWND _handle = HWND.Null;
+    readonly HWND _handle;
 
-    internal readonly uint ProcessId = 0;
+    internal readonly uint ProcessId;
 
     Win32Window(HWND handle)
     {
