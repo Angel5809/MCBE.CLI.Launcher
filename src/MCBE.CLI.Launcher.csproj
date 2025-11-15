@@ -11,6 +11,15 @@
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyTitle>MCBE CLI Launcher</AssemblyTitle>
+    <Product>MCBE CLI Launcher</Product>
+    <Company>Aetopia</Company>
+    <Copyright>Copyright (C) 2025 Aetopia</Copyright>
+
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
   </PropertyGroup>
 
   <ItemGroup>
