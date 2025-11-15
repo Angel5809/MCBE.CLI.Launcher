@@ -36,7 +36,7 @@ A simple & easy CLI injector for Minecraft: Bedrock Editon meant to aid in devel
     Build.cmd
 
     :: Inject our native mod into a fresh instance of the game.
-    MCBE.CLI.Launcher.exe --launch Modification.dll --initialized
+    MCBE.CLI.Launcher.exe --launch Dynamic.Link.Library.dll --initialized
     ```
 
 ## Build
